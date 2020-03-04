@@ -87,7 +87,7 @@ function Order () {
         overallTotal = overallTotal + newPizza.pizzaTotal();
       });
   
-      $("#final-total").text("Your Total Order is $" + overallTotal);
+      $("#final-total").text("Your Total Order is ksh" + overallTotal);
       resetSelections();
   
     });
