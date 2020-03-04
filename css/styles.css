@@ -19,5 +19,14 @@ h2{
     color: yellowgreen;
 }
 #col1{
-    padding-left: 3cm;
+    padding-left: 2.5cm;
+}
+.total{
+    color: teal;
+}
+#deliver{
+    background-image: url("/images/piz3.jpg");
+}
+#form input{
+    text-align: center;
 }
