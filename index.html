@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/jquery-3.1.0.js"></script>
+        <script src="js/script.js"></script>
+        <title id="title">Pizaa palace</title>
+    </head>
+    <body id="body">
+        <div class="container">
+          <div class="jumbotron">
+          <h1>Pizza palace</h1>  
+          <p id="p1">When you think of pizza thik about about piza palace.If you love pizza, you came to the right
+            place! started in 2019.
+            Pizza palace is one of the original pizzas that helped define what has become known as Windsor-style
+            pizza for the entire region.</p>
+            <p id="p1">Pizza palace is often rated the #1 pizza place in kenya. And on the african stage ,Pizza palace
+                is ranked among the best in a compeition in cape town ,South Africa.
+                To whet your appetite, Pizza palace goes beyond traditional Windsor-style pizza and crafts
+                a wide range of pizza styles and configurations with hand-tossed thin crust, deep dish,</p>  
+          <h2>Place Your Order</h2>
+        </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Sizes</h2>
+              <form id = "orderForm">
+                <div id = "pizza-order">
+                  <div class="second-pizza">
+                    <select class="form-control pizza-size">
+                      <option value="500">Small</option>
+                      <option value="900">Medium</option>
+                      <option value="1200">Large</option>
+                    </select>
+                    <p>
+                      prices for pizza are small = 500, medium= 900, and large =1200
+                    </p>
+                    <select class ="form-control pizza-crust">
+                      <option value="100">Crispy</option>
+                      <option value="100">Gluten-Free</option>
+                      <option value="100">Stuffed</option>
+                    <p>
+                        each crust 100 bob 
+                    </p>
+
+                    </select>
+                    <h2>Toppings</h2>
+                    <h3>Each topping is an extra 50</h3>
+                    <div class="checkbox">
+                      <label><input type="checkbox" name="toppings" value="50">bacon</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" name="toppings" value="50">sausage</label>
+                    </div>
+                    <div class="checkbox">
+                      <label><input type="checkbox" name="toppings" value="50">babycon</label>
+                    </div>
+                  </div>
+                </div>
+                <span class="btn btn-warning" id="add-more-pizza">add a pizza</span>
+                <button type="submit" class="btn btn-danger">Place Order</button>
+              </form>
+            </div>
+            <div class="col-sm-4">
+              <div id="show-pizza-results">
+                <h2>Your Pizza Order:</h2>
+                <div id="pizza-price">
+                  <ul>
+                  </ul>
+                </div>
+                <h1 id="final-total"></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+</html>
