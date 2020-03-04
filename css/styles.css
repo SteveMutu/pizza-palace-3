@@ -1,0 +1,20 @@
+#body{
+    background-image: url("/images/piz3.jpg");
+    background-repeat: no-repeat;
+    height: 5%;
+
+}
+#p1{
+    text-align: center;
+    color: yellowgreen;
+}
+.row{
+    color: yellowgreen;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+h2{
+    color: yellowgreen;
+}
