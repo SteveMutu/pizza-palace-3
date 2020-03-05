@@ -82,7 +82,7 @@ function Order () {
   
   
         $("#show-pizza-results").show();
-        $("#pizza-price").append("<li> Pizza " + (pizzaNumber + 1) + ": ksh" + newPizza.pizzaTotal() + "</li>");
+        $("#pizza-price").append("<li> Pizza " + (pizzaNumber += 1) + ": ksh" + newPizza.pizzaTotal() + "</li>");
         overallTotal = overallTotal + newPizza.pizzaTotal();
       });
   
