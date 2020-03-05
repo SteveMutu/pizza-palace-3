@@ -26,6 +26,8 @@ h2{
 }
 #deliver{
     background-image: url("/images/piz3.jpg");
+    background-size: cover;
+    background-position: fixed;
 }
 #form input{
     text-align: center;
