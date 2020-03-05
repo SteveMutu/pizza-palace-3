@@ -68,7 +68,6 @@ function Order () {
   
       $(".second-pizza").each(function() {
         var sizeInput = parseInt($(this).find( $("select.pizza-size")).val());
-  
         var toppingInput = 0;
   
         var ToppingsPicked = $(this).find( document.getElementsByName("toppings"));
@@ -89,7 +88,14 @@ function Order () {
   
       $("#final-total").text("Your Total Order is ksh" + overallTotal);
       resetSelections();
+      
+
   
     });
   });
-  
+  $(document).ready(function() {
+    $("sbt").submit(function(event) {
+        event.preventDefault();
+      alert("Thank you for submitting reach us on gmail");
+    });
+  });
