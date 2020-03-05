@@ -1,5 +1,5 @@
 #body{
-    background-image: url("/images/piz3.jpg");
+    background-image: url("../images/piz3.jpg");
     background-repeat: no-repeat;
     height: 5%;
 
@@ -25,7 +25,7 @@ h2{
     color: teal;
 }
 #deliver{
-    background-image: url("/images/piz3.jpg");
+    background-image: url("..git /images/piz3.jpg");
     background-position: fixed;
 }
 #form input{
