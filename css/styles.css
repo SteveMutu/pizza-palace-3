@@ -1,5 +1,5 @@
 #body{
-    background-image: url("/images/piz3.jpg");
+    background-image: url("../../3/images/piz3.jpg");
     background-repeat: no-repeat;
     height: 5%;
 
@@ -25,10 +25,30 @@ h2{
     color: teal;
 }
 #deliver{
-    background-image: url("/images/piz3.jpg");
-    background-size: cover;
+    background-image: url("../../3/images/piz3.jpg")
     background-position: fixed;
 }
 #form input{
+    text-align: center;
+    margin-left: 15cm;
+}
+#btn a{
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+#btn a:hover{
+    background-color: gray;
+    color: black;
+    padding: 5px;
+}
+#h7{
+    color: rgb(255, 136, 0);
+}
+#img{
+    text-align: center;
+}
+#img2{
     text-align: center;
 }
