@@ -32,7 +32,7 @@ function Order () {
     $('input:checkbox').removeAttr('checked');
   }
   
-  // Front End
+  // on add a pizza
   
   $(document).ready(function() {
   
@@ -45,6 +45,11 @@ function Order () {
                                  '<option value="900">Medium</option>' +
                                  '<option value="1200">Large</option>' +
                                  '</select>' +
+                                 ' <select class ="form-control pizza-crust"> '+
+                                 '<option value="100">Crispy</option> '+
+                                 '<option value="100">Gluten-Free</option> '+
+                                 '<option value="100">Stuffed</option> '+
+                                 '</select> '+
                                  '<h2>Toppings</h2>' +
                                  '<div class="checkbox">' +
                                  '<label><input type="checkbox" name="toppings" value="50">pepperoni</label>' +
